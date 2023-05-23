@@ -1,0 +1,8 @@
+1.  we can have custom attributes in html.
+    HTML5 introduced a feature called "data attributes" that allows you to create your own custom attributes prefixed with "data-". 
+    These attributes are intended to store custom data for an element that is not interpreted by the browser, but can be accessed and 
+    manipulated using JavaScript or CSS.
+    To create a custom attribute, you simply add the "data-" prefix followed by your attribute name to an HTML element.
+
+
+2.  listening for the transistion-end event
