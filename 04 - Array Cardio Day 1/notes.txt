@@ -1,0 +1,22 @@
+1. console.table() : 
+   The console.table() method is used to display tabular data as a table in the console. 
+
+2. converting nodelist to array :
+   The querySelectorAll method returns a static NodeList representing a list of the document's elements that match the specified group of selectors.
+   
+   NodeList can be converted to arrays using several methods such as:
+   1. Using Array.from() method: This method creates a new array from an existing one or from an array-like object like a NodeList.
+   2. Using the spread operator: The spread operator syntax can be used to create an array from a NodeList.
+        // Create a NodeList object
+        const divs = document.querySelectorAll('div');
+        // Convert NodeList to an array
+        const divsArr = [...divs];
+
+
+
+
+3. To check if an object has a specific property, there are several ways to do it. Here are three common methods:
+
+   Using the hasOwnProperty() method: This method checks if an object has a property and returns a boolean value indicating whether the object has the property directly. For example, obj.hasOwnProperty('item') will return true if the object obj has a property named item. However, this method only checks for direct properties and does not search up the prototype chain.
+   Using the in operator: This operator checks if an object has a property, including properties inherited from its prototype chain. For example, 'item' in obj will return true if the object obj has a property named item or if the property is inherited from its prototype chain.
+   Using obj[item] !== undefined: This method checks if the value of obj[item] is not undefined, which means that the property exists in the object. However, this method is not reliable if the property value is actually undefined.
