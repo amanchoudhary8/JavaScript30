@@ -1,0 +1,8 @@
+1.  fetch api: The Fetch API in JavaScript is a modern interface for making HTTP requests to servers from web browsers. 
+    It provides a more powerful and flexible replacement for XMLHttpRequest (XHR). 
+    The fetch() method is used to request data from a server and requires only one parameter: the URL to request. 
+    It returns a promise that resolves into a Response object containing the fetched data.
+
+2.  blob of data:  blob refers to a file-like object of immutable, 
+    raw data that can be read as text or binary data, or converted 
+    into a ReadableStream for processing the data.
