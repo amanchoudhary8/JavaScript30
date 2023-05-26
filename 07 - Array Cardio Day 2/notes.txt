@@ -1,0 +1,5 @@
+1.  Adding {} around a variable name when using console.log() creates an object with the variable name 
+    as the key and the value of the variable as the value. This can make it easier to identify the 
+    variable being logged when viewing the output in the console.
+    This can be helpful when you are logging multiple variables, as it provides context for the logged 
+    values.
