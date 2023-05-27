@@ -1,0 +1,6 @@
+1. toggle function
+
+2. event listener callback function:
+   When the event occurs, an event object is passed to the function as the first parameter. 
+   The type of the event object depends on the specified event. 
+   For example, the "click" event belongs to the MouseEvent object.
